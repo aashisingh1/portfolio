@@ -8,12 +8,12 @@ window.PORTFOLIO = {
   firstName: "Aashi",
 
   hero: {
-    status: "Engineer III at American Express",
+    status: "Software Engineer III at American Express",
     greeting: "Hi there, I'm",
-    roleLine: "a Senior Software Engineer",
+    roleLine: "a Software Engineer",
     tagline: "Java at the core, React at the surface, quality all the way through.",
     intro:
-      "I build full-stack platforms with Spring Boot microservices behind and React up front, and I care a lot about shipping them without surprises.",
+      "I deliver products end to end, from requirement analysis and design through development, testing and release, with Java and Spring Boot on the backend and React on the frontend.",
     badges: [
       { value: "7+ yrs", label: "building full-stack products" },
       { value: "Centurion Award", label: "American Express, 2025" },
@@ -43,11 +43,11 @@ window.PORTFOLIO = {
     background: [
       "I'm a full-stack engineer with 7+ years of experience designing, building and maintaining applications in Java, with React.js on the frontend. Most of my work lives in microservices, APIs and the databases behind them.",
       "At American Express I've set up the UI framework and APIs for a new platform, built Spring Boot services that calculate fees, refunds and taxes, and led system integration testing across 3–4 teams with zero production defects.",
-      "Lately I've been bringing AI and faster automation into the day-to-day: a custom AI agent for story grooming, and a workflow that moves Selenium–Cucumber suites to Playwright. Alongside the code, I lead and mentor a team of 3–5 junior developers.",
+      "Lately I've been bringing AI and faster automation into the day-to-day: a custom AI agent for story grooming, and a workflow that moves Selenium–Cucumber suites to Playwright. Alongside the code, I have led and mentored a team of 3–5 junior developers.",
     ],
     facts: [
       { label: "Based in", value: "Bangalore, India" },
-      { label: "Currently", value: "Engineer III, American Express" },
+      { label: "Currently", value: "Software Engineer III, American Express" },
       { label: "Focus", value: "Java · Spring Boot · React.js" },
     ],
     cards: [
@@ -57,7 +57,7 @@ window.PORTFOLIO = {
       },
       {
         title: "What I Bring to Teams",
-        text: "Ownership from grooming to release. I clarify requirements with Product and Design, review code with care, mentor junior developers, and run deployments end to end.",
+        text: "Ownership from grooming to release. I clarify requirements with Product and Design, write clean, well-structured code, review PRs thoroughly, mentor junior developers, and run deployments end to end.",
       },
     ],
   },
@@ -67,12 +67,12 @@ window.PORTFOLIO = {
       company: "American Express",
       location: "Bangalore",
       dates: "Mar 2026 – Present",
-      role: "Engineer III",
+      role: "Software Engineer III",
       summary:
-        "Leading delivery on the team: shaping requirements with Product and Design, mentoring developers, owning releases, and bringing AI and faster test automation into the workflow.",
+        "Leading delivery on the team: shaping requirements with Product and Design, owning releases, and bringing AI and faster test automation into the workflow.",
       bullets: [
         "Contribute to Product and Design discussions with technical insight, clarifying requirements and aligning business expectations with feasible technical solutions.",
-        "Lead and mentor a team of 3–5 junior developers, running code reviews and upholding coding standards, best practices and overall code quality.",
+        "Led and mentored a team of 3–5 junior developers, running code reviews and upholding coding standards, best practices and overall code quality.",
         "Independently managed and executed the majority of the May and June release deployments, owning smooth execution and timely delivery.",
         "Independently designed and developed the Admin Repository, with parallel and sequential API calls and a reusable common data library that improves maintainability, scalability and development efficiency.",
         "Designed and developed a custom AI agent for CPAT and story grooming that improves product understanding, identifies missing edge cases, uncovers requirement gaps and guides integration with existing systems through APIs.",
@@ -84,7 +84,7 @@ window.PORTFOLIO = {
       company: "American Express",
       location: "Bangalore",
       dates: "Feb 2022 – Mar 2026",
-      role: "Engineer II",
+      role: "Software Engineer II",
       summary:
         "Built the UI foundations and backend services for a new platform, and led cross-team integration testing with zero production defects.",
       bullets: [
@@ -105,8 +105,9 @@ window.PORTFOLIO = {
       dates: "May 2019 – Feb 2022",
       role: "Senior Software Engineer",
       summary:
-        "Full-stack delivery across client products in security research, automotive, education and e-commerce. Fast-tracked from fresher to Senior Engineer within two years.",
+        "Full-stack delivery across client products in security research, automotive, education and e-commerce.",
       bullets: [
+        "Fast-tracked from fresher to Senior Engineer within 2 years, driven by strong technical contributions.",
         "Developed REST APIs with Java Spring Boot, designed user interfaces with React.js and created database structures across complete project development, following microservices architecture and Agile methodology.",
         "Vulhunt (security research): built the campaign module for reporting vulnerabilities and managing rewards; integrated Razorpay and Digio for Aadhaar and PAN card verification.",
         "Turbosense (car dealerships): developed data ingestion and processing features, and security modules for the report-generating dashboard, enhancing dealer automation.",
@@ -119,10 +120,8 @@ window.PORTFOLIO = {
 
   stats: [
     { value: "7+", label: "Years of Experience", note: "Full-stack with Java & React.js" },
-    { value: "0", label: "Production Defects", note: "Leading SIT across 3–4 teams" },
     { value: "3–5", label: "Developers Mentored", note: "Code reviews & coding standards" },
     { value: "2", label: "American Express Awards", note: "Centurion 2025 · GCST Quality Pillar" },
-    { value: "2 yrs", label: "Fresher to Senior Engineer", note: "Fast-tracked at Sakhatech" },
     { value: "4", label: "Client Products Delivered", note: "Vulhunt · Turbosense · XUSOM · Hopscotch" },
   ],
 

@@ -299,6 +299,8 @@ button { font: inherit; }
 
 /* ---------- Stats ---------- */
 .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+/* Exactly four numbers sit in one row instead of 3 + 1. */
+.stats:has(> .stat:nth-child(4):last-child) { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .stat { position: relative; overflow: hidden; padding: 28px; }
 .stat::after {
   content: ""; position: absolute; right: -28px; top: -28px;
@@ -442,6 +444,7 @@ button { font: inherit; }
   .float-1 { left: -22px; bottom: 26%; }
   .float-2 { right: -18px; top: auto; bottom: 4%; }
   .about-grid { grid-template-columns: minmax(0, 1fr); }
+  .stats, .stats:has(> .stat:nth-child(4):last-child) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .xp { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .xp-side { position: static; display: flex; align-items: center; gap: 14px; }
   .xp-co { margin-top: 0; }
