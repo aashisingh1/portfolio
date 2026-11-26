@@ -1,141 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aashi Singh — Software Engineer</title>
-  <meta name="description" content="Aashi Singh is a software engineer in Bangalore with 7+ years of full-stack experience in Java, Spring Boot and React.js.">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Aashi Singh — Software Engineer">
-  <meta property="og:description" content="Full-stack engineer with 7+ years in Java, Spring Boot and React.js. Engineer III at American Express.">
-  <meta property="og:url" content="https://aashisingh1.github.io/portfolio/">
-  <meta property="og:image" content="https://aashisingh1.github.io/portfolio/photo.jpg">
-  <meta name="theme-color" content="#EAF4E8">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232E6B4A'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' text-anchor='middle' fill='%23EAF4E8'%3EAS%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aashi Singh, Software Engineer</title>
+    <meta name="description" content="Aashi Singh is a software engineer in Bangalore with 7+ years of full-stack experience in Java, Spring Boot and React.js." />
 
-  <header class="nav" id="nav">
-    <div class="wrap nav-row">
-      <a class="brand" href="#home" id="brand"></a>
-      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav-links" id="navLinks" aria-label="Sections"></nav>
-    </div>
-  </header>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Aashi Singh, Software Engineer" />
+    <meta property="og:description" content="Full-stack engineer with 7+ years in Java, Spring Boot and React.js. Software Engineer III at American Express." />
+    <meta property="og:url" content="https://aashisingh1.github.io/portfolio/" />
+    <meta property="og:image" content="https://aashisingh1.github.io/portfolio/photo.jpg" />
+    <meta name="theme-color" content="#f3f7f1" />
 
-  <main id="main">
-    <section class="hero" id="home">
-      <div class="wrap hero-grid">
-        <div class="hero-text" id="heroText"></div>
-        <div class="hero-visual" id="heroVisual"></div>
-      </div>
-    </section>
-
-    <div class="ticker" id="ticker" aria-hidden="true"></div>
-
-    <section class="sec" id="about" data-nav="About">
-      <div class="wrap">
-        <header class="sec-head reveal">
-          <p class="eyebrow">About</p>
-          <h2>About Me</h2>
-        </header>
-        <div class="about-grid" id="aboutGrid"></div>
-      </div>
-    </section>
-
-    <section class="sec band" id="experience" data-nav="Experience">
-      <div class="wrap">
-        <header class="sec-head reveal">
-          <p class="eyebrow">Experience</p>
-          <h2>Where I've Worked</h2>
-          <p class="sec-sub">The teams I've been part of and what I built with them</p>
-        </header>
-        <div class="xp-list" id="xpList"></div>
-      </div>
-    </section>
-
-    <section class="sec" id="impact">
-      <div class="wrap">
-        <header class="sec-head reveal">
-          <p class="eyebrow">Impact</p>
-          <h2>Impact at a Glance</h2>
-          <p class="sec-sub">A few numbers from the journey so far</p>
-        </header>
-        <div class="stats" id="stats"></div>
-      </div>
-    </section>
-
-    <section class="sec band" id="work" data-nav="Work">
-      <div class="wrap">
-        <header class="sec-head reveal">
-          <p class="eyebrow">Work</p>
-          <h2>Selected Work</h2>
-          <p class="sec-sub">A closer look at things I've designed and built</p>
-        </header>
-        <div class="projects" id="projects"></div>
-        <div id="moreWrap">
-          <h3 class="sub-head reveal">More things I've built</h3>
-          <div class="more-grid" id="moreProjects"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="sec" id="skills" data-nav="Skills">
-      <div class="wrap">
-        <header class="sec-head reveal">
-          <p class="eyebrow">Skills</p>
-          <h2>Skills &amp; Tools</h2>
-          <p class="sec-sub">What I reach for when building software</p>
-        </header>
-        <div class="skills-grid" id="skillsGrid"></div>
-      </div>
-    </section>
-
-    <section class="sec band" id="recognition">
-      <div class="wrap">
-        <header class="sec-head reveal">
-          <p class="eyebrow">Recognition</p>
-          <h2>Awards &amp; Education</h2>
-        </header>
-        <div class="awards" id="awards"></div>
-        <div class="edu" id="education"></div>
-      </div>
-    </section>
-
-    <section class="sec" id="testimonials">
-      <div class="wrap">
-        <header class="sec-head reveal">
-          <p class="eyebrow">Kind words</p>
-          <h2>Testimonials</h2>
-          <p class="sec-sub">What colleagues say about working with me</p>
-        </header>
-        <div class="quotes" id="quotes"></div>
-      </div>
-    </section>
-
-    <section class="sec" id="contact" data-nav="Contact">
-      <div class="wrap">
-        <div class="contact reveal" id="contactBox"></div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="wrap" id="footer"></div>
-  </footer>
-
-  <noscript>
-    <p style="padding:24px;text-align:center">This portfolio needs JavaScript turned on to display its content.</p>
-  </noscript>
-
-  <script src="content.js"></script>
-  <script src="script.js"></script>
-</body>
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="preload" href="./fonts/Zodiak-Variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/Switzer-Variable.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" crossorigin src="./assets/index-DctNlnsJ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CqGbZck-.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 24px">This page needs JavaScript. You can reach Aashi at saashi364@gmail.com.</p>
+    </noscript>
+  </body>
 </html>
